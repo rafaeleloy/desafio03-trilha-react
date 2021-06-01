@@ -142,7 +142,7 @@ describe('useCart Hook', () => {
     await waitFor(
       () => {
         expect(mockedToastError).toHaveBeenCalledWith(
-          'Erro na adição do produto'
+          'Erro na edição do produto'
         );
       },
       { timeout: 200 }
